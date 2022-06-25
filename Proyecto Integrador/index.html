@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Meraki Cerámica</title>
+</head>
+<body>
+  <header class="header">
+    <div class="logo-header">
+        <a href=""><img src="img/logo.png" alt="logomeraki"></a>
+    </div>
+    <div class="nav-menu">
+        <input type="checkbox" id="check">    
+        <label class="menu-icon" for="check">
+          <img src="img/noun-menu-1166834.png" alt="hamburguer-icon">
+            </label>
+        <ul>
+            <li><a href="#myself">Nosotros</a></li>
+            <li><a href="#productos">Galería </a></li>
+            <li><a href="#form-container">Contacto</a></li>
+            <li><a href="./Ingresar.html">Ingresar</a></li>
+            <li><a href="./register.html">Registrarse</a></li>
+        </ul>
+    </div>
+</header>
+<div class="image-text-container">
+  <div class="maintext">
+      <h1 id="myself">Cosas lindas y <br> <span class="violet">hechas con amor</span>
+        </h1>
+      <p>¡Bienvenido a Meraki Cerámica! Te invito a recorrer este espacio y encontrar eso que es justo para vos. Desde<span class="important"> tazas, centros de mesa, mates personalizados</span> y mucho más. Todo hecho de forma artesanal y customizado para todos los gustos. 
+      </p>
+  </div>
+  <div class="contenedor-imagen">
+      <img class="mainimage" src="img/imagen-banner.png" alt="computadora">
+  </div>
+</div>
+<div class="ctas">
+  <button class="contact-button"><a href="#form-container">CONOCER MÁS</a></li></button>
+</div>
+<div id="productos">
+  <h3>Algo de lo que hago</h3>
+  <div class="carrousel-slider">
+    <div class="carousel">
+        <div class="carousel__item carousel__item--visible">
+          <img src="img/producto1.png" />
+        </div>
+        <div class="carousel__item">
+          <img src="img/producto2.png" />
+        </div>
+        <div class="carousel__item">
+          <img src="img/producto3.png" />
+        </div>
+        <div class="carousel__item">
+          <img src="img/producto4.png" />
+        </div>
+        <div class="carousel__item">
+          <img src="img/producto5.png" />
+        </div>
+        <div class="carousel__item">
+          <img src="img/producto6.png" />
+        </div>
+    <div class="carousel__actions">
+          <button id="carousel__button--prev" aria-label="Previous slide"><</button>
+          <button id="carousel__button--next" aria-label="Next slide">></button>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="clientes">
+  <h3>Opiniones de clientes</h3>
+  <div class="cardscontainer">
+    <div class="card">
+      <p class="name">Ana</p>
+      <p class="text">Compré la taza de los anteojitos y me encantó. Gabi se encargó de personalizarla con mis colores favoritos, todo genial.</p>
+    </div>
+    <div class="card">
+      <p class="name">Pedro</p>
+      <p class="text">Pedí el platito para la mermelada y no puedo estar más conforme. Todo super prolijo, y entregado en tiempo y forma. </p>
+    </div>
+    <div class="card">
+      <p class="name">Marian</p>
+      <p class="text">Encargué para un regalo el florero de la mujercita, y gustó un montón. Gracias Gabi por tu hermoso trabajo.</p>
+    </div>
+  </div>
+</div>
+<div id="form-container">
+<form>
+  <h3>Contactanos</h3>
+  <div class="group">     
+    <input type="text" required>
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Nombre</label>
+  </div>
+  <div class="group">      
+    <input type="text" required>
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Correo</label>
+  </div>
+  <div class="group">      
+    <input type="text" required>
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Mensaje</label>
+  </div>
+  <input class="botons" type="submit" value="Enviar">
+</form>
+</div>
+<footer>
+  <div class="contenedorlogos">
+    <a href="https://www.instagram.com/gabita.a.m/"><img src="img/instagramw.png" alt="logoig"></a>
+    <a href="https://www.linkedin.com/in/gabriela-alejandra-mart%C3%ADn-71a257240/"><img src="img/linkedinw.png" alt="logolinkedin"></a>
+    <a href="https://www.facebook.com/gabriela.martin.771"><img src="img/facebookw.png" alt="logofb"></a>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
